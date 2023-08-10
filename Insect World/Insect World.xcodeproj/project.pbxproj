@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D399A43D2A78DEF5009DB6EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D399A43C2A78DEF5009DB6EF /* AppDelegate.swift */; };
+		D399A43F2A78DEF5009DB6EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D399A43E2A78DEF5009DB6EF /* ContentView.swift */; };
+		D399A4412A78DEF5009DB6EF /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D399A4402A78DEF5009DB6EF /* Experience.rcproject */; };
+		D399A4432A78DEF7009DB6EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D399A4422A78DEF7009DB6EF /* Assets.xcassets */; };
+		D399A4462A78DEF7009DB6EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D399A4452A78DEF7009DB6EF /* Preview Assets.xcassets */; };
+		D399A4502A78DEF7009DB6EF /* Insect_WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D399A44F2A78DEF7009DB6EF /* Insect_WorldTests.swift */; };
+		D399A45A2A78DEF7009DB6EF /* Insect_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D399A4592A78DEF7009DB6EF /* Insect_WorldUITests.swift */; };
+		D399A45C2A78DEF7009DB6EF /* Insect_WorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D399A45B2A78DEF7009DB6EF /* Insect_WorldUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D399A44C2A78DEF7009DB6EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D399A4312A78DEF5009DB6EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D399A4382A78DEF5009DB6EF;
+			remoteInfo = "Insect World";
+		};
+		D399A4562A78DEF7009DB6EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D399A4312A78DEF5009DB6EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D399A4382A78DEF5009DB6EF;
+			remoteInfo = "Insect World";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D399A4392A78DEF5009DB6EF /* Insect World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Insect World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D399A43C2A78DEF5009DB6EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D399A43E2A78DEF5009DB6EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D399A4402A78DEF5009DB6EF /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		D399A4422A78DEF7009DB6EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D399A4452A78DEF7009DB6EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D399A44B2A78DEF7009DB6EF /* Insect WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Insect WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D399A44F2A78DEF7009DB6EF /* Insect_WorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insect_WorldTests.swift; sourceTree = "<group>"; };
+		D399A4552A78DEF7009DB6EF /* Insect WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Insect WorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D399A4592A78DEF7009DB6EF /* Insect_WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insect_WorldUITests.swift; sourceTree = "<group>"; };
+		D399A45B2A78DEF7009DB6EF /* Insect_WorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insect_WorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D399A4362A78DEF5009DB6EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D399A4482A78DEF7009DB6EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D399A4522A78DEF7009DB6EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D399A4302A78DEF5009DB6EF = {
+			isa = PBXGroup;
+			children = (
+				D399A43B2A78DEF5009DB6EF /* Insect World */,
+				D399A44E2A78DEF7009DB6EF /* Insect WorldTests */,
+				D399A4582A78DEF7009DB6EF /* Insect WorldUITests */,
+				D399A43A2A78DEF5009DB6EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D399A43A2A78DEF5009DB6EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D399A4392A78DEF5009DB6EF /* Insect World.app */,
+				D399A44B2A78DEF7009DB6EF /* Insect WorldTests.xctest */,
+				D399A4552A78DEF7009DB6EF /* Insect WorldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D399A43B2A78DEF5009DB6EF /* Insect World */ = {
+			isa = PBXGroup;
+			children = (
+				D399A43C2A78DEF5009DB6EF /* AppDelegate.swift */,
+				D399A43E2A78DEF5009DB6EF /* ContentView.swift */,
+				D399A4402A78DEF5009DB6EF /* Experience.rcproject */,
+				D399A4422A78DEF7009DB6EF /* Assets.xcassets */,
+				D399A4442A78DEF7009DB6EF /* Preview Content */,
+			);
+			path = "Insect World";
+			sourceTree = "<group>";
+		};
+		D399A4442A78DEF7009DB6EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D399A4452A78DEF7009DB6EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D399A44E2A78DEF7009DB6EF /* Insect WorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				D399A44F2A78DEF7009DB6EF /* Insect_WorldTests.swift */,
+			);
+			path = "Insect WorldTests";
+			sourceTree = "<group>";
+		};
+		D399A4582A78DEF7009DB6EF /* Insect WorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D399A4592A78DEF7009DB6EF /* Insect_WorldUITests.swift */,
+				D399A45B2A78DEF7009DB6EF /* Insect_WorldUITestsLaunchTests.swift */,
+			);
+			path = "Insect WorldUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D399A4382A78DEF5009DB6EF /* Insect World */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D399A45F2A78DEF7009DB6EF /* Build configuration list for PBXNativeTarget "Insect World" */;
+			buildPhases = (
+				D399A4352A78DEF5009DB6EF /* Sources */,
+				D399A4362A78DEF5009DB6EF /* Frameworks */,
+				D399A4372A78DEF5009DB6EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Insect World";
+			productName = "Insect World";
+			productReference = D399A4392A78DEF5009DB6EF /* Insect World.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D399A44A2A78DEF7009DB6EF /* Insect WorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D399A4622A78DEF7009DB6EF /* Build configuration list for PBXNativeTarget "Insect WorldTests" */;
+			buildPhases = (
+				D399A4472A78DEF7009DB6EF /* Sources */,
+				D399A4482A78DEF7009DB6EF /* Frameworks */,
+				D399A4492A78DEF7009DB6EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D399A44D2A78DEF7009DB6EF /* PBXTargetDependency */,
+			);
+			name = "Insect WorldTests";
+			productName = "Insect WorldTests";
+			productReference = D399A44B2A78DEF7009DB6EF /* Insect WorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D399A4542A78DEF7009DB6EF /* Insect WorldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D399A4652A78DEF7009DB6EF /* Build configuration list for PBXNativeTarget "Insect WorldUITests" */;
+			buildPhases = (
+				D399A4512A78DEF7009DB6EF /* Sources */,
+				D399A4522A78DEF7009DB6EF /* Frameworks */,
+				D399A4532A78DEF7009DB6EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D399A4572A78DEF7009DB6EF /* PBXTargetDependency */,
+			);
+			name = "Insect WorldUITests";
+			productName = "Insect WorldUITests";
+			productReference = D399A4552A78DEF7009DB6EF /* Insect WorldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D399A4312A78DEF5009DB6EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D399A4382A78DEF5009DB6EF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D399A44A2A78DEF7009DB6EF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D399A4382A78DEF5009DB6EF;
+					};
+					D399A4542A78DEF7009DB6EF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D399A4382A78DEF5009DB6EF;
+					};
+				};
+			};
+			buildConfigurationList = D399A4342A78DEF5009DB6EF /* Build configuration list for PBXProject "Insect World" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D399A4302A78DEF5009DB6EF;
+			productRefGroup = D399A43A2A78DEF5009DB6EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D399A4382A78DEF5009DB6EF /* Insect World */,
+				D399A44A2A78DEF7009DB6EF /* Insect WorldTests */,
+				D399A4542A78DEF7009DB6EF /* Insect WorldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D399A4372A78DEF5009DB6EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D399A4462A78DEF7009DB6EF /* Preview Assets.xcassets in Resources */,
+				D399A4432A78DEF7009DB6EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D399A4492A78DEF7009DB6EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D399A4532A78DEF7009DB6EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D399A4352A78DEF5009DB6EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D399A43F2A78DEF5009DB6EF /* ContentView.swift in Sources */,
+				D399A43D2A78DEF5009DB6EF /* AppDelegate.swift in Sources */,
+				D399A4412A78DEF5009DB6EF /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D399A4472A78DEF7009DB6EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D399A4502A78DEF7009DB6EF /* Insect_WorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D399A4512A78DEF7009DB6EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D399A45A2A78DEF7009DB6EF /* Insect_WorldUITests.swift in Sources */,
+				D399A45C2A78DEF7009DB6EF /* Insect_WorldUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D399A44D2A78DEF7009DB6EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D399A4382A78DEF5009DB6EF /* Insect World */;
+			targetProxy = D399A44C2A78DEF7009DB6EF /* PBXContainerItemProxy */;
+		};
+		D399A4572A78DEF7009DB6EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D399A4382A78DEF5009DB6EF /* Insect World */;
+			targetProxy = D399A4562A78DEF7009DB6EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D399A45D2A78DEF7009DB6EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D399A45E2A78DEF7009DB6EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D399A4602A78DEF7009DB6EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Insect World/Preview Content\"";
+				DEVELOPMENT_TEAM = 44QFQ3Q9U3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DT3.Insect-World";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D399A4612A78DEF7009DB6EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Insect World/Preview Content\"";
+				DEVELOPMENT_TEAM = 44QFQ3Q9U3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DT3.Insect-World";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D399A4632A78DEF7009DB6EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44QFQ3Q9U3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DT3.Insect-WorldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insect World.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Insect World";
+			};
+			name = Debug;
+		};
+		D399A4642A78DEF7009DB6EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44QFQ3Q9U3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DT3.Insect-WorldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Insect World.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Insect World";
+			};
+			name = Release;
+		};
+		D399A4662A78DEF7009DB6EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44QFQ3Q9U3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DT3.Insect-WorldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Insect World";
+			};
+			name = Debug;
+		};
+		D399A4672A78DEF7009DB6EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44QFQ3Q9U3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DT3.Insect-WorldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Insect World";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D399A4342A78DEF5009DB6EF /* Build configuration list for PBXProject "Insect World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D399A45D2A78DEF7009DB6EF /* Debug */,
+				D399A45E2A78DEF7009DB6EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D399A45F2A78DEF7009DB6EF /* Build configuration list for PBXNativeTarget "Insect World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D399A4602A78DEF7009DB6EF /* Debug */,
+				D399A4612A78DEF7009DB6EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D399A4622A78DEF7009DB6EF /* Build configuration list for PBXNativeTarget "Insect WorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D399A4632A78DEF7009DB6EF /* Debug */,
+				D399A4642A78DEF7009DB6EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D399A4652A78DEF7009DB6EF /* Build configuration list for PBXNativeTarget "Insect WorldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D399A4662A78DEF7009DB6EF /* Debug */,
+				D399A4672A78DEF7009DB6EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D399A4312A78DEF5009DB6EF /* Project object */;
+}

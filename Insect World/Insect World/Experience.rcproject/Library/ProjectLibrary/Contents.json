@@ -1,0 +1,77 @@
+[
+  {
+    "libraryIdentifier" : "5cd655ea397ad97c5e6275183f894a10",
+    "format" : "model",
+    "displayName" : "Ant.usdz"
+  },
+  {
+    "libraryIdentifier" : "63ce916a5cc22f57b27a56795c8757a5",
+    "format" : "model",
+    "displayName" : "Robot_Ant.usdz"
+  },
+  {
+    "libraryIdentifier" : "d7d19250e254284d307cad112ab28004",
+    "format" : "model",
+    "displayName" : "Spider_with_Animation.usdz"
+  },
+  {
+    "libraryIdentifier" : "1657dcbdbbb860a08b66dbecaec38403",
+    "format" : "model",
+    "displayName" : "Animated_Spider.usdz"
+  },
+  {
+    "libraryIdentifier" : "7930c2131d96bc084a65f4d97f6020a9",
+    "format" : "model",
+    "displayName" : "hi-fi-spider.usdz"
+  },
+  {
+    "libraryIdentifier" : "14ccdac8bdb000c871835777636ad989",
+    "format" : "model",
+    "displayName" : "Spider.usdz"
+  },
+  {
+    "libraryIdentifier" : "e6a2639e074fcff37b9dd45f48f21408",
+    "format" : "model",
+    "displayName" : "Spider_Rig.usdz"
+  },
+  {
+    "libraryIdentifier" : "5ea18e9d8081eb31a6e39de1baf07b18",
+    "format" : "model",
+    "displayName" : "Butterfly.usdz"
+  },
+  {
+    "libraryIdentifier" : "a1a473af5e34c10f90f42b4ec48e7764",
+    "format" : "model",
+    "displayName" : "BUTTERFLY-2.usdz"
+  },
+  {
+    "libraryIdentifier" : "328e43e61c2d83d1c1d3845625550c87",
+    "format" : "model",
+    "displayName" : "Cockroach.usdz"
+  },
+  {
+    "libraryIdentifier" : "09fb3273bbdd19255ec5f41a02905a47",
+    "format" : "model",
+    "displayName" : "Bee.usdz"
+  },
+  {
+    "libraryIdentifier" : "e96376ed38de9650c8037bb4308e8e4d",
+    "format" : "model",
+    "displayName" : "Snail_Non-Commercial.usdz"
+  },
+  {
+    "libraryIdentifier" : "02c9400e3aff93af024727efa59b953b",
+    "format" : "model",
+    "displayName" : "Orchard_Swallowtail.usdz"
+  },
+  {
+    "libraryIdentifier" : "9a673b318ffa8ad539d3f525b73ff2b4",
+    "format" : "model",
+    "displayName" : "Mosquito_animated.usdz"
+  },
+  {
+    "libraryIdentifier" : "b5c94577a0766f2eb65b1ad9b9e65e8f",
+    "format" : "model",
+    "displayName" : "Woodlouse.usdz"
+  }
+]
